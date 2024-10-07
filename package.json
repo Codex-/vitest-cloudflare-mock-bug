@@ -1,0 +1,22 @@
+{
+  "name": "proud-scene-5bce",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.5.15",
+    "@cloudflare/workers-types": "^4.20241004.0",
+    "typescript": "^5.6.2",
+    "vitest": "2.1.2",
+    "wrangler": "^3.80.1"
+  },
+  "dependencies": {
+    "p-retry": "^6.2.0"
+  }
+}
